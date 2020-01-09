@@ -7,9 +7,9 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(CMAKE_MAKE_PROGRAM make)
-set(CMAKE_C_COMPILER gcc)
-set(CMAKE_CXX_COMPILER g++)
+set(CMAKE_MAKE_PROGRAM 'make')
+set(CMAKE_C_COMPILER 'gcc')
+set(CMAKE_CXX_COMPILER 'g++')
 
 add_executable(jenkinsexample main.cpp helloWorld.cpp helloWorld.h)
 
