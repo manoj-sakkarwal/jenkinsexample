@@ -26,7 +26,7 @@ pipeline {
                 environment name: 'RUN_TESTS', value: 'true'
             }
             steps {
-                ctest 'InSearchPath'
+                /usr/local/bin/ctest 'InSearchPath'
             }
         }
 
